@@ -10,3 +10,8 @@
 .App h1 {
   font-family: "Playfair Display", serif;
 }
+
+.App footer {
+  text-align: center;
+  margin: 30px 0;
+}
