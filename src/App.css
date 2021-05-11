@@ -9,9 +9,18 @@
 
 .App h1 {
   font-family: "Playfair Display", serif;
+  color: #272142;
+}
+
+.App .icon {
+  margin-left: 20px;
 }
 
 .App footer {
-  text-align: center;
-  margin: 30px 0;
+  font-size: 11px;
+  margin: 20px 0;
+  color: #272142;
+}
+.App footer a {
+  color: #97cba9;
 }
