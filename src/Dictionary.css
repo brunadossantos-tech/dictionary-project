@@ -1,3 +1,26 @@
 .Dictionary {
   font-family: "Poppins", sans-serif;
 }
+
+.Dictionary section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgb(0 0 0 /10%);
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  color: #272142;
+  opacity: 0.8;
+}
+.Dictionary h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #272142;
+}

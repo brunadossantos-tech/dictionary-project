@@ -18,7 +18,7 @@ export default function App() {
           
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="aurora"/>
       </main>
       <footer>
         Coded by {""}
