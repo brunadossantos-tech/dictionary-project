@@ -24,3 +24,8 @@
   margin-bottom: 20px;
   color: #272142;
 }
+
+.Dictionary .btn-primary {
+  background-color: #ffcab0;
+  border: 1px solid #ffcab0;
+}

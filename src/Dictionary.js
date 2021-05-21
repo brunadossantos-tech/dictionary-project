@@ -50,7 +50,14 @@ export default function Dictionary(props){
                     <section>
                     <h2>What word you want search for?</h2>
                     <form onSubmit={handleSubmit}>
-                        <input type="search" onChange={handleKeywordChange} placeholder="type a word"/>
+                        <div className="row">
+                            <div className="col-9">
+                                <input type="search" onChange={handleKeywordChange} placeholder="type a word"/>
+                            </div>
+                            <div className="col-3">
+                                <input type="submit" value="Search" className="btn btn-primary w-100"/>
+                            </div>
+                        </div>
                     </form>
                     </section>
                     <Results results={results}/>
